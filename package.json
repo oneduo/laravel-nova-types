@@ -1,0 +1,29 @@
+{
+  "name": "laravel-nova-types",
+  "version": "0.1.0",
+  "description": "Provides Typescript types for common objects used in Laravel Nova custom components",
+  "main": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oneduo/laravel-nova-types.git"
+  },
+  "keywords": [
+    "laravel",
+    "nova",
+    "typescript",
+    "types"
+  ],
+  "author": "Charaf Rezrazi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oneduo/laravel-nova-types/issues"
+  },
+  "homepage": "https://github.com/oneduo/laravel-nova-types#readme",
+  "devDependencies": {
+    "vue": "^3.2.41",
+    "vuex": "^4.1.0"
+  }
+}
