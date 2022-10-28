@@ -1,6 +1,7 @@
 type App = import("vue").App;
 type Component = import("vue").Component;
 type VNode = import("vue").VNode;
+type Axios = import("axios").Axios
 
 export type State = {
   baseUri: string;
@@ -166,6 +167,17 @@ export declare type Nova = {
   $progress: Progress;
   $toasted: Toasted;
 
+  applyTheme: () => void;
   booting: (callback: (app: App, store: Store) => void) => void;
+  config: (key: string) => any;
+  error: (message: string) => void;
   inertia: (name: string, component: string) => void;
+  info: (message: string) => void;
+  log: (message: any, type: string) => void;
+  redirectToLogin: () => void;
+  request: (options: Object) => Axios;
+  sucess: (message: string) => void;
+  url: (path: string, parameters: { [key: string]: string }) => string;
+  visit: (path: string, options: Object) => void;
+  warning: (message: string) => void;
 };

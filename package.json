@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/oneduo/laravel-nova-types#readme",
   "devDependencies": {
+    "axios": "^1.1.3",
     "vue": "^3.2.41",
     "vuex": "^4.1.0"
   }
