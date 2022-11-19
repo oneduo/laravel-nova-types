@@ -178,6 +178,10 @@ export declare type Nova = {
   request: (options: Object) => Axios;
   sucess: (message: string) => void;
   url: (path: string, parameters: { [key: string]: string }) => string;
-  visit: (path: string, options: Object) => void;
+  visit: (path: string, options?: Object) => void;
   warning: (message: string) => void;
+  $emit: (event: string, ...args: any[]) => void;
+  $on: (event: string, callback: Function, ctx?: any) => void;
+  $once: (event: string, callback: Function, ctx?: any) => void;
+  $off: (event: string, callback?: Function) => void;
 };
