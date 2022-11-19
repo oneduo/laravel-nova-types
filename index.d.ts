@@ -159,6 +159,7 @@ export type Toasted = {
 };
 
 export declare type Nova = {
+  app: App;
   appConfig: AppConfig;
   bootingCallbacks: ((app: App, store: Store) => void)[];
   notificationPollingInterval: number;
